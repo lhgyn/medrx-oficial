@@ -47,7 +47,7 @@ function medrx_scripts()
 {   
     //////////////////////////
     // SCRIPTS FOR DEVELOPMENT
-    // wp_enqueue_script('jquery', 'https://code.jquery.com/jquery-3.3.1.min.js');
+    //wp_enqueue_script('jquery', 'https://code.jquery.com/jquery-3.3.1.min.js');
     // wp_enqueue_script('bootstrap4', get_template_directory_uri() . '/assets/libs/bootstrap4/js/bootstrap.min.js');
     // wp_enqueue_script('inputmask', get_template_directory_uri() . '/assets/libs/inputmask/jquery.mask.min.js');
     // wp_enqueue_script('owlcarousel', get_template_directory_uri() . '/assets/libs/owl-carousel/owl.carousel.min.js');
@@ -55,7 +55,6 @@ function medrx_scripts()
     // wp_enqueue_script('custom', get_template_directory_uri() . '/assets/js/custom.js');
     // wp_enqueue_script('products', get_template_directory_uri() . '/assets/js/products.js');
     // wp_enqueue_script('main', get_template_directory_uri() . '/assets/js/main.js');
-    // wp_enqueue_script('affix', 'https://rawgit.com/bassjobsen/affix/master/assets/js/affix.js');
 
     // ALL SCRIPTS FOR PRODUCTION
     wp_enqueue_script('__all-scripts', get_template_directory_uri() . '/assets/js/__all-scripts.min.js');
@@ -144,11 +143,6 @@ function footer_widgets_init() {
   ) );
 }
 add_action( 'widgets_init', 'footer_widgets_init' );
-    
-
-/*///////////////////////////////////////////////
-////////// REMOVE ITEM DO CARRINHO VIA AJAX
-////////////////////////////*/
 
 
 /*///////////////////////////////////////////////

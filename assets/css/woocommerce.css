@@ -406,8 +406,11 @@ body.woocommerce-order-received section#tankyou-buttons div p:last-child{
 body.woocommerce-order-received section#tankyou-buttons div p a{
     padding: 15px 25px;
     border-bottom: 2px solid #046076;
-    color: #046076;
+    color: #fff;
     border-radius: 6px;
+}
+body.woocommerce-order-received section#tankyou-buttons div p a:hover{
+    color: #046076;
 }
 
 body.woocommerce-order-received .table-bordered td, body.woocommerce-order-received .table-bordered th{
@@ -456,7 +459,7 @@ and (max-width:992px){
     font-size: 22px;
     padding-top: 20px;
     padding-bottom: 0px;
-    font-weight: 600;
+    font-weight: 500;
     color:#046076;
     position: relative;
     display:inline-block;
@@ -499,7 +502,7 @@ and (max-width:992px){
 and (max-width: 992px){
     .info-section .title-line h2{
         font-size: 20px;
-     }
+    }
 }
 
 
@@ -729,16 +732,16 @@ li.payment_method_pagarme-banking-ticket{
 body.woocommerce-cart #shipping_method li p,
 body.woocommerce-cart #shipping_method li label{ margin: 0; }
 
-input[id=shipping_method_0_correios-pac3],
-input[id=shipping_method_0_correios-sedex4],
+input[id=shipping_method_0_correios-pac1],
+input[id=shipping_method_0_correios-sedex2],
 #payment input[id="payment_method_pagarme-credit-card"],
 #payment input[id="payment_method_pagarme-banking-ticket"]{
     position: absolute;
     top: calc(50% - 9px); left: 0;
     opacity: 1 !important;
 }
-input[id=shipping_method_0_correios-pac3]::before,
-input[id=shipping_method_0_correios-sedex4]::before,
+input[id=shipping_method_0_correios-pac1]::before,
+input[id=shipping_method_0_correios-sedex2]::before,
 input[id="payment_method_pagarme-credit-card"]::before,
 input[id="payment_method_pagarme-banking-ticket"]::before {
     content: '';
@@ -750,16 +753,16 @@ input[id="payment_method_pagarme-banking-ticket"]::before {
     cursor: pointer;
 }
 
-input[id=shipping_method_0_correios-pac3]:checked::before,
-input[id=shipping_method_0_correios-sedex4]:checked::before,
+input[id=shipping_method_0_correios-pac1]:checked::before,
+input[id=shipping_method_0_correios-sedex2]:checked::before,
 #payment input[id="payment_method_pagarme-credit-card"]:checked::before,
 #payment input[id="payment_method_pagarme-banking-ticket"]:checked::before {
     content: "";
     background: #8bc34a;
 }
 
-input[id=shipping_method_0_correios-pac3]:checked::after,
-input[id=shipping_method_0_correios-sedex4]:checked::after,
+input[id=shipping_method_0_correios-pac1]:checked::after,
+input[id=shipping_method_0_correios-sedex2]:checked::after,
 #payment input[id="payment_method_pagarme-credit-card"]::after,
 #payment input[id="payment_method_pagarme-banking-ticket"]::after {
     position: absolute;
@@ -818,7 +821,7 @@ input[id=shipping_method_0_correios-sedex4]:checked::after,
     body.woocommerce-cart #shipping_method li{
         align-items: flex-end;
     }
-    input[id=shipping_method_0_correios-pac3], input[id=shipping_method_0_correios-sedex4]{
+    input[id=shipping_method_0_correios-pac1], input[id=shipping_method_0_correios-sedex2]{
         left: 15px;
     } 
     #tab-two ul#shipping_method li{

@@ -1,6 +1,6 @@
 html, body, .w-counter-number, .w-pricing-item-price, .w-tabs-item-title, .stats-block .stats-desc .stats-number{
 	font-family: 'Rubik' !important;
-	font-weight: normal;
+	font-weight: normal !important;
 }
 strong{
 	font-weight: 500;
