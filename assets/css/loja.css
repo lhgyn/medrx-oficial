@@ -1,0 +1,648 @@
+/*
+=================================================================
+Developer front-end: Peterson Macedo
+Developer back-end: Felipe Ribeiro
+Developer back-end: Jandimar
+Date: 26/03/2018
+Life Health
+MEDrx [loja-page]
+=================================================================
+*/
+
+
+#shop {
+    background:
+        linear-gradient(135deg, rgb(123, 203, 191, 0.9) 0%,rgb(123, 203, 191, 0.5) 100%),
+        url('https://wallpapersite.com/images/pages/pic_w/11416.jpg');
+    background-size: cover;
+    padding: 50px 0 0;
+    text-align: center;
+}
+
+.title-page-loja {
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+.title-page-loja h1 {
+    color: #005165;
+    font-size: 49px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.title-page-loja p {
+    color: #005165;
+    text-align: center;
+    font-size: 20px;
+    padding: 0;
+}
+
+#shop .content-product-loja a h2 {
+    font-size: 1.5em;
+    color: #046076 !important;
+    text-align: center;
+    font-weight: 500;
+    text-decoration: none;
+    white-space: nowrap;
+    padding: 0.8rem 0 0.6rem;
+    margin:  0;
+    padding-top: 0;
+}
+#shop .content-product-loja .detalhes{
+    height: 75px;
+}
+#shop .content-product-loja .detalhes h6,
+#shop .content-product-loja .detalhes h5,
+#shop .content-product-loja .detalhes h4,
+#shop .content-product-loja .detalhes h3,
+#shop .content-product-loja .detalhes h2,
+#shop .content-product-loja .detalhes h1,
+#shop .content-product-loja .detalhes p,
+#shop .content-product-loja .detalhes {
+    text-transform: lowercase;
+    font-size: 14px !important;
+    color: #828282 !important;
+    font-weight: 400!important;
+}
+
+#shop div.row.products div.col-sm {
+    border-right: 1px solid #ccc;
+    margin-bottom: 45px;
+    background-color: white;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+.my-inner.content-product-loja {
+    margin: -80px auto auto;
+    padding: 15px;
+    width: 100%;
+}
+
+#shop div.row.products div.row {
+    padding-top: 25px;
+}
+
+#shop .btn {
+    border-radius: 0;
+}
+
+.content-product-loja a {
+    position: relative;
+    bottom: 0;
+    top: 100%;
+    text-decoration: none;
+}
+.content-product-loja a:hover {
+    text-decoration: none;
+}
+.read-more {
+    display: inline-block;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    padding: 10px 12px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+    bottom: 0;
+}
+
+.read-more:hover {
+    color: #fff;
+}
+
+.woocommerce .star-rating span:before {
+    color: #fbda2d !important;
+}
+
+.titulo {
+    font-size: 20px!important;
+    margin-top: 10px;
+    font-family: "Rubik",sans-serif;
+    color: #046076;
+    font-weight: 500;
+    text-align: center;
+}
+
+#articles-loja .artigos a > img {
+    margin: 0 auto;
+    display: block;
+    border-radius: 50%;
+    border: 5px #7bcbbf solid;
+}
+
+#articles-loja .title-articles-loja {
+    font-size: 30px;
+    font-weight: 500;
+    padding: 35px 0;
+    text-align: center;
+    color: #046076;
+    font-family: "Rubik",sans-serif;
+}
+
+#articles-loja > div > div > hr {
+    margin-bottom: 50px;
+}
+
+#articles-loja .resumo-article {
+    font-size: 16px;
+    color: #9096aa!important;
+    margin-bottom: 30px;
+    font-weight: 400;
+    text-align: center;
+}
+
+#articles-loja > div > div.artigos > div > div > a:hover {
+    text-decoration: none;
+}
+
+#articles-loja .btn-article {
+    width: auto;
+    border: none;
+    background: #7bcbbf;
+    color: #fff;
+    font-family: "Rubik",sans-serif;
+    font-size: 14px;
+    padding: 10px 25px;
+    margin: 30px auto 40px;
+    display: table;
+}
+
+.content-article-loja {
+    position: relative;
+    padding-bottom: 80px;
+}
+
+#articles-loja div.saiba-mais {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.rating{
+    text-align:center;
+    display:block
+}
+
+#shop .products ul li .rating {
+    text-align:center;
+}
+
+#shop .products ul li .rating i {
+    color:#ff8601
+}
+
+#shop .products ul li .rating span {
+    padding-left:15px
+}
+
+#shop .products ul li a.button {
+    margin-top:25px
+}
+
+#shop .signup-banner {
+    background:#046076;
+    padding:20px;
+    text-align:left
+}
+
+#shop .signup-banner .text {
+    display:inline-block;
+    width:480px;
+    vertical-align:middle
+}
+
+#shop .signup-banner p {
+    text-align:left;
+    color:#fff
+}
+
+#shop .signup-banner h3 {
+    font-size:18pt;
+    color:#80e9ff;
+    margin-bottom:15px;
+    font-weight:500;
+    text-transform:uppercase
+}
+
+#shop .signup-banner .benefits {
+    margin:0 25px;
+    vertical-align:middle;
+    display:inline-block;
+    border:0;
+    background:transparent
+}
+
+#shop .signup-banner .benefits li {
+    border:0;
+    display:inline-block;
+    padding-top:0;
+    padding:0 15px;
+    color:#fff;
+    font-weight:500;
+    font-size:13px
+}
+
+#shop .signup-banner .benefits li img {
+    display:block;
+    margin:0 auto 5px
+}
+
+#shop .signup-banner .button {
+    display:inline-block;
+    vertical-align:middle;
+    width:auto;
+    box-shadow:0 3px 15px 0 rgba(250, 67, 123, 0.2);
+    padding:15px 50px
+}
+
+#shop .doctors {
+    max-width:760px;
+    margin:0 auto;
+    text-align:center;
+    backgroud: red!important;
+}
+
+#shop .doctors h2 {
+    font-size:30px;
+    font-weight:500;
+    padding:35px 0
+}
+
+#shop .doctors h3 {
+    font-size:18px;
+    font-weight:500;
+    margin-top:10px
+}
+
+#shop .doctors h4 {
+    font-size:16px;
+    color:#9096aa;
+    margin-bottom:30px;
+    font-weight:300
+}
+
+#shop .doctors p {
+    color:#515a77;
+    font-size:18px;
+    line-height:1.5
+}
+
+#shop .doctors ul {
+    font-size:0;
+    margin-left: 0;
+}
+
+#shop .doctors ul li {
+    width:250px;
+    display:inline-block;
+    padding:0 15px
+}
+
+#shop .doctors img.circle {
+    border-radius:50%;
+    border:7px solid #7bcbbf;
+    object-fit:cover;
+    height:133px;
+    width:133px
+}
+
+#shop .doctors a.button {
+    width:auto;
+    border:none;
+    background:#7bcbbf;
+    color:#046076;
+    font-family:"Rubik",sans-serif;
+    font-size:14px;
+    padding:10px 25px;
+    margin:30px 0 40px
+}
+
+.woocommerce .star-rating.stars-loja {
+    margin: 0 auto;
+}
+
+.stars-loja span {
+}
+
+.stars-loja span strong{
+    font-weight: normal!important;
+}
+
+#shop .products ul li .rating {
+    text-align: center;
+    display: block;
+}
+
+#shop .products ul li .rating i {
+    color: #2D8865;
+}
+
+.icon-star:before {
+    content: '\f005';
+    font-family: fontawesome!important;
+}
+
+[class^="icon-"]:before, [class*=" icon-"]:before {
+    font-family: "scale";
+    font-style: normal;
+    font-weight: normal;
+    speak: none;
+    display: inline-block;
+    text-decoration: inherit;
+    width: 1em;
+    margin-right: .2em;
+    text-align: center;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1em;
+    margin-left: .2em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+#shop .products ul li .rating span {
+    padding-left: 15px;
+}
+
+.read-more {
+    display: inline-block;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    background: #2D8865;
+    padding: 10px 12px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.product-meta {
+    height: 140px;
+}
+
+.product-meta h2{
+    height: 60px;
+}
+
+.star-rating.stars-loja {
+    float: left!important;
+    margin-left: 0px!important;
+}
+
+.nota-estrela {
+    float: right;
+    line-height: 17px;
+    margin-right: 2px !important;
+    padding-bottom: 15px;
+}
+
+.nota-estrela span {
+    color: #666666;
+}
+
+.highlight_primary, .g-preloader, .l-main .w-contacts-item:before, .w-counter.color_primary .w-counter-number, .g-filters.style_1 .g-filters-item.active, .g-filters.style_3 .g-filters-item.active, .w-form-row.focused .w-form-row-field:before, .w-iconbox.color_primary .w-iconbox-icon, .w-separator.color_primary, .w-sharing.type_outlined.color_primary .w-sharing-item, .no-touch .w-sharing.type_simple.color_primary .w-sharing-item:hover .w-sharing-icon, .w-tabs.layout_default .w-tabs-item.active, .w-tabs.layout_trendy .w-tabs-item.active, .w-tabs.layout_ver .w-tabs-item.active, .w-tabs-section.active .w-tabs-section-header, .tablepress .sorting_asc, .tablepress .sorting_desc, .woocommerce .star-rating span:before, .woocommerce-tabs .tabs li.active, .no-touch .woocommerce-tabs .tabs li.active:hover, .woocommerce #payment .payment_methods li>input:checked + label, .no-touch .owl-prev:hover, .no-touch .owl-next:hover {
+    color:#2D8865;
+}
+
+.woocommerce .stars-loja.star-rating:before,
+.woocommerce .stars-loja.star-rating span:before {
+    font-size: 1rem;
+    letter-spacing: 0.01em;
+}
+
+/* Media Query Screen */
+
+@media screen and (min-width: 1200px) {
+    #shop > div.container {
+        max-width: 1200px;
+    } 
+}
+
+@media (max-width: 1280px) {
+    #shop .products ul {
+        overflow:auto;
+        white-space:nowrap;
+        max-width:100%;
+        margin:115px auto -85px;
+        background:transparent linear-gradient(transparent 45px, #fff 0);
+        top: -100px
+    }
+
+    #shop .products ul li:first-child {
+        border:none
+    }
+
+    #shop .products ul li {
+        border:none;
+        position:relative
+    }
+
+    #shop .products ul li p {
+        white-space:normal
+    }
+
+    #shop .products ul li img {
+        margin-top:0
+    }
+
+    #shop .products ul li::before {
+        content:'';
+        display:inline-block;
+        position:absolute;
+        background:#ccc;
+        width:1px;
+        height:calc(100% - 45px);
+        top:45px;
+        right:0
+    }
+
+    #shop .products .overflow-box {
+        position:relative
+    }
+
+    #shop .products .overflow-box.overflowed::before {
+        content:'';
+        position:absolute;
+        width:100%;
+        top:59px;
+        right:0;
+        height:calc(100% - 79px);
+        z-index:9;
+        pointer-events:none
+    }
+
+    #shop .products .overflow-box.overflowed-both::before {
+        background:linear-gradient(to right, rgba(0, 0, 0, 0.3) 0%, rgba(243, 243, 243, 0) 9%, rgba(243, 243, 243, 0) 91%, rgba(0, 0, 0, 0.3) 100%)
+    }
+
+    #shop .products .overflow-box.overflowed-right::before {
+        background:linear-gradient(to left, rgba(255, 255, 255, 0) 0%, rgba(243, 243, 243, 0) 91%, rgba(0, 0, 0, 0.3) 100%)
+    }
+
+    #shop .products .overflow-box.overflowed-left::before {
+        background:linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(243, 243, 243, 0) 91%, rgba(0, 0, 0, 0.3) 100%)
+    }
+}
+
+@media (max-width: 768px){
+    #shop .signup-banner {
+        text-align:center
+    }
+
+    #shop .signup-banner .text {
+        display:block;
+        margin:0 auto 25px;
+        width:100%;
+        max-width:480px
+    }
+    #shop .signup-banner .text p {
+        text-align:center
+    }
+    #shop .signup-banner .benefits {
+        display:block;
+        margin:0 auto 25px;
+        width:100%;
+        max-width:480px
+    }
+
+    #shop .signup-banner .button {
+        width:100%;
+        max-width:480px;
+        margin:auto
+    }
+}
+
+@media (max-width: 720px) {
+    #shop .products {
+        padding:15px 0 0
+    }
+
+    #shop .products h1 {
+        font-size:25px
+    }
+
+    #shop .products p {
+        font-size:16px
+    }
+
+    #shop .products ul {
+        overflow:visible;
+        margin:40px 0 15px;
+        top:0;
+        background:none;
+        padding:0 15px
+    }
+
+    #shop .products ul li {
+        width:100%;
+        display:block;
+        margin-bottom:15px;
+        background:#fff
+    }
+
+    #shop .products ul li:before {
+        display:none
+    }
+
+    #shop .products ul li h2 {
+        min-height:0
+    }
+
+    #shop .doctors {
+        padding:0 15px
+    }
+
+    #shop .doctors h3, #shop .doctors h4 {
+        display:none
+    }
+
+    #shop .doctors ul li {
+        width:auto;
+        padding:0;
+        margin-bottom:25px
+    }
+
+    #shop .doctors ul li:first-child img {
+        margin-right: -9px
+    }
+
+    #shop .doctors ul li:last-child img {
+        margin-left: -9px
+    }
+
+    .woocommerce .products {
+        margin-top: 0!important;
+    }
+
+    .woocommerce .products .product {
+        width: 280px!important;
+        margin-bottom: 25px!important;
+    }
+
+    .us-woo-shop_standard .product-h {
+        padding-top: 30px!important;
+    }
+
+    #shop .products h1 {
+        font-weight: 400;
+    }
+
+    .star-rating.stars-loja {
+        margin-left: 45px!important;
+    }
+
+    .nota-estrela {
+        margin-right: 45px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    #shop > div > div.row.products > div.row {
+        margin: 0 auto!important;
+        padding: 15px;
+        display: block;
+    }
+
+    #shop .my-inner.content-product-loja {
+        margin: 0!important;
+    }
+
+    #shop .my-inner.content-product-loja .star-rating.stars-loja {
+        margin-left: 0!important;
+    }
+
+    #articles-loja > div > div > div > div.col-sm.content-article-loja {
+        margin-bottom: 40px;
+    }
+
+    #shop div.row.products div.col-sm {
+        margin-bottom: 30px!important;
+    }
+}
+
+@media (max-width: 520px) {
+    #shop .signup-banner .benefits li{
+        padding:0 9px
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+    .woocommerce .products .product {
+        width: 270px!important;
+    }
+
+    #shop .products p {
+        margin: 0 15px 15px;
+    }
+
+}

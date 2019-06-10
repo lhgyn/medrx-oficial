@@ -1,0 +1,188 @@
+/*
+=================================================================
+Developer front-end: Peterson Macedo
+Developer back-end: Jandimar Rocha
+Date: 07/12/2018
+Life Health
+MEDrx [carrinho]
+=================================================================
+*/
+
+#main-container > div > div > div.col-12 > h3 {
+    margin: 0;
+    padding-top: 0;
+    font-weight: 400;
+    color: #046076;
+    font-size: 46px;
+    text-transform: capitalize !important;
+    letter-spacing: -0.02em;
+    line-height: 1.4;
+}
+
+.return-to-shop {
+    display: table;
+    margin: 0 auto 15px;
+}
+
+.return-to-shop a.button.wc-backward {
+    font-weight: 400;
+}
+
+.cart-empty {
+    text-align: center;
+    margin-bottom: 2.5em;
+}
+
+.woocommerce-message .button.wc-forward {
+    display: none;
+}
+
+.woocommerce-message {
+    background-color: #eaf2e5;
+}
+
+.woocommerce table.shop_table {
+    border: solid 2px #b0b0b0 !important;
+    text-align: center !important;
+    color: #046076 !important;
+    border-radius: 0 !important;
+}
+
+.woocommerce table.shop_table .coupon {
+    display: none !important;
+}
+
+.woocommerce table.shop_table > tbody > tr.woocommerce-cart-form__cart-item.cart_item td {
+    border-top: none !important;
+}
+
+.woocommerce table.shop_table > tbody > tr > td.actions {
+    background: #f6f6f6 !important;
+    border-top: none !important;
+}
+
+.woocommerce table.shop_table > tbody > tr.woocommerce-cart-form__cart-item.cart_item > td.product-name > a {
+    color: #666 !important;
+}
+
+.woocommerce table.shop_table > tbody > tr.woocommerce-cart-form__cart-item.cart_item td.product-quantity div.quantity .input-text.qty.text {
+    background: #eee;
+    border: none;
+}
+
+.woocommerce div.cart-collaterals > div.cart_totals > h2 {
+    color: #666;
+}
+
+.woocommerce div.cart-collaterals > div.cart_totals > table {
+    border: none !important;
+    text-align: left !important;
+    color: #666 !important;
+    margin-top: 15px;
+    background: #eee;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.woocommerce div.cart-collaterals > div.cart_totals > table > tbody > tr.woocommerce-shipping-totals.shipping th,
+.woocommerce div.cart-collaterals > div.cart_totals > table > tbody > tr.woocommerce-shipping-totals.shipping td,
+.woocommerce div.cart-collaterals > div.cart_totals > table > tbody > tr.order-total th,
+.woocommerce div.cart-collaterals > div.cart_totals > table > tbody > tr.order-total td {
+    border-top: solid 1px lightgrey;
+}
+
+.shipping-calculator-button {
+    color: #046076;
+}
+
+.checkout-button.button.alt.wc-forward {
+    background-color: #fa6233 !important;
+    border-radius: 0;
+    font-weight: 400;
+}
+
+.woocommerce div.cross-sells > ul.products > li.product {
+    border: 1px solid #ddd !important;
+    text-align: center !important;
+    padding: 15px;
+}
+
+
+.woocommerce div.cross-sells > ul.products > li > a.woocommerce-LoopProduct-link.woocommerce-loop-product__link > img {
+    max-width: 200px;
+    margin: 15px auto;
+}
+
+.woocommerce div.cross-sells > ul.products > li > a.woocommerce-LoopProduct-link.woocommerce-loop-product__link > h2 {
+    color: #046076;
+    font-size: 1.3em;
+    text-align: center;
+}
+
+.woocommerce div.cross-sells > ul.products > li > a.woocommerce-LoopProduct-link.woocommerce-loop-product__link > div {
+    margin: 0 auto 15px;
+    font-size: 1em;
+}
+
+.woocommerce div.cross-sells > ul.products > li > a.button.product_type_variable.add_to_cart_button {
+    background: #fa6233;
+    color: #fff;
+    font-weight: 400;
+    border-radius: 0;
+}
+
+.woocommerce div.cross-sells > h2 {
+    color: #666;
+    font-size: 1.5em;
+    margin-bottom: 30px;
+}
+
+.woocommerce div.cross-sells > ul > li > a.woocommerce-LoopProduct-link.woocommerce-loop-product__link > span.price {
+    display: none !important;
+}
+
+.woocommerce-cart div.col-md.content-list-product {
+    padding: 0 !important;
+}
+
+.woocommerce-cart div.container.container-list-product {
+    padding: 0 !important;
+}
+
+@media screen and (min-width: 769px) and (max-width: 991px) {
+    .woocommerce div.cross-sells > ul.products > li.product {
+        width: 100% !important;
+    }
+
+    .woocommerce div.cross-sells > h2 {
+        font-size: 1.4em;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .woocommerce div.cross-sells > ul.products > li.product {
+        border: 1px solid #ddd !important;
+        text-align: center !important;
+        padding: 15px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .woocommerce div.wc-proceed-to-checkout a.checkout-button.button.alt.wc-forward {
+        max-width: 100% !important;
+        width: 100% !important;
+    }
+
+    .woocommerce div.cross-sells > ul.products > li.product {
+        width: 48% !important;
+    }
+}
+
+@media screen and (max-width: 575.98px) {
+    .woocommerce div.cross-sells > ul.products > li.product {
+        width: 100% !important;
+    }
+    .woocommerce div.cross-sells > h2 {
+        font-size: 1.2em;
+    }
+}

@@ -1,0 +1,24 @@
+/*///////////////////////////////////////////////////////////////
+////////// SELOS
+////////////////////////////*/
+
+#selos{ 
+    margin-top: 50px; 
+    margin-bottom: 35px; 
+}
+
+#selos .icons{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+#selos .icons img{
+	margin: 15px;
+}
+
+@media only screen
+and (max-width: 991px){
+	#selos .icons img{
+		max-width: 60px;
+	}
+}

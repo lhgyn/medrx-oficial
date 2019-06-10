@@ -1,0 +1,39 @@
+/*///////////////////////////////////////////////////////////////
+////////// NEWSLETTER
+////////////////////////////*/
+#newsletter{
+	background: #005165;
+	display: flex;
+	align-items: center;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	color:  #fff;
+}
+#newsletter .right{
+	display: flex;
+	align-items: center;
+}
+#newsletter .wpcf7{margin: 0; padding: 0;}
+#newsletter .wpcf7-response-output{
+	margin: 0; padding: 0;
+}
+#newsletter .mb-3{
+	position: relative;
+	margin-bottom: 0 !important; padding: 0;
+	color:  #fff;
+}
+#newsletter .ajax-loader{
+	position: absolute;
+	right: -25px;
+}
+#newsletter .wpcf7-not-valid-tip{
+	font-size: 11px;
+	color:  #fff;
+	margin-bottom: 10px;
+}
+@media only screen
+and (max-width: 991px){
+	#newsletter h3{
+		font-size: 3vh;
+	}
+}

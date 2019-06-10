@@ -1,0 +1,274 @@
+/*
+=================================================================
+Developer front-end: Peterson Macedo
+Developer back-end: Jandimar Rocha
+Date: 11/12/2018
+Life Health
+MEDrx [home-page]
+=================================================================
+*/
+
+#home.row {
+    margin: 0;
+}
+
+#home > div.slide-home {
+    padding: 0;
+}
+
+.row.content-slide-home {
+    margin: 0;
+}
+
+.content-info-slide-home {
+    text-align: center;
+    padding-top: 45px;
+}
+
+.subtitle-slide-home {
+    color: #666;
+    font-size: 22px;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+
+.single-product-slide-home {
+    background: #fff;
+    box-shadow: 2px 2px 5px #555
+}
+
+.single-product-slide-home > img {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.single-product-slide-home > h2 {
+    padding: 0 15px 15px;
+}
+
+.cta-slide-home {
+    background: #cc5c00;
+    width: 80%;
+    height: 55px;
+    display: flex;
+    vertical-align: middle;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+    font-size: 1.2em;
+    color: #fff;
+    text-transform: uppercase;
+}
+.cta-slide-home:hover {
+    background: darkorange;
+    color:  #fff;
+}
+
+.cta-slide-home::before {
+    content: ">>";
+    position: absolute;
+    right: 15%;
+}
+
+.slide-home > .owl-nav {
+    position: absolute;
+    top: calc(50% - 60px);
+    width: 100%;
+}
+
+.slide-home > .owl-nav .icon-nav-home {
+    color: #fff;
+    background: rgba(0,0,0,.1);
+    position: absolute;
+    font-size: 60px !important;
+    padding: 0 7px !important;
+}
+
+.slide-home > .owl-nav .icon-nav-home.fa-angle-left {
+    left: 15px;
+}
+
+.slide-home > .owl-nav .icon-nav-home.fa-angle-right {
+    right: 15px;
+}
+
+.title-best-seller-home {
+    color: #046076;
+    font-size: 30pt;
+    text-align: center;
+    font-weight: 500;
+    line-height: 1em;
+}
+
+.row-products-home {
+    padding: 25px 0;
+    margin: 0;
+}
+
+.row-products-home > div.col-sm.col-md-6.col-lg-3 {
+    padding: 10px
+}
+
+.content-product-home {
+    padding: 15px;
+    border: 1px solid #eee;
+}
+
+div.content-product-home > a > img {
+    padding: 0;
+    margin: 0 auto;
+    display: block;
+}
+
+h2.title-product-home {
+    color: #046076 !important;
+    font-size: 2em;
+    text-align: center;
+    font-weight: 500;
+    text-decoration: none;
+    white-space: nowrap;
+    padding: 0;
+    margin: 0 auto 10px;
+}
+
+.content-product-home > div.detalhes {
+    min-height: 65px;
+}
+
+.content-product-home > div.detalhes > h6 {
+    text-transform: lowercase;
+    text-align: center;
+    font-size: 14px !important;
+    color: #828282 !important;
+    font-weight: 400!important;
+}
+
+#blog-home {
+    padding: 20px 0 30px;
+    background: #F3F6FA;
+}
+
+#content-latest-articles h3.title-blog-home {
+    font-size: 24pt;
+    padding: 40px 0 8px;
+    margin-bottom: 0;
+    text-align: center;
+    color: #046076;
+    font-weight: 500;
+}
+
+#content-latest-articles p.subtitle-blog-home {
+    text-align: center;
+    margin: 0 auto 40px;
+    color: #828282;
+    font-size: 14pt;
+}
+
+.content-line-cat-post {
+    background: #fff;
+    padding: 20px 0 10px;
+    margin-bottom: 25px;
+}
+
+.title-cat-home {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #046076;
+    padding-bottom: 15px;
+}
+
+.content-article-home {
+    padding: 0 15px;
+}
+
+.content-article-home > a > img{
+    position: relative;
+    overflow: hidden;
+    margin: 10px 0;
+    max-height: 150px;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: 50% 10%;
+}
+
+.content-article-home > .saiba-mais > a.btn-article {
+    width: auto;
+    border: none;
+    background: #7bcbbf;
+    color: #fff;
+    font-size: 14px;
+    padding: 10px 25px;
+    margin: 15px auto;
+    display: table;
+}
+
+.content-article-home > a {
+    text-decoration: none;
+}
+
+.title-article-home {
+    font-weight: 400;
+    color: #666;
+}
+
+.resumo-article-home {
+    color: #999;
+    font-weight: 300;
+}
+
+@media screen and (max-width: 575px) {
+    .product-slide-home {
+        padding: 0 5px;
+    }
+    .content-article-home {
+        padding: 5px 15px 5px;
+        border-bottom: 1px solid #ddd;
+    }
+    #shop .content-product-loja > a > figure > img {
+        width: 200px;
+    }
+    #shop .content-product-loja .detalhes {
+        height: auto;
+    }
+    #shop .content-product-loja > hr {
+        margin: 10px 0;
+    }
+    #shop .content-product-loja .nota-estrela {
+        padding-bottom: 10px;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .content-article-home {
+        border-right: 1px solid #eee;
+    }
+    .content-article-home:last-child {
+        border-right: none;
+    }
+}
+
+@media screen and (max-width: 721px) {
+    #shop .content-product-loja .star-rating.stars-loja {
+        margin-left: 0!important;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    #shop .content-product-loja .detalhes {
+        height: 105px;
+    }
+}
+
+.btn.btn-all-products,
+.btn.btn-all-articles.btn-show-blog {
+    margin: 0 auto 30px;
+    background: lightgray;
+    padding: 20px 35px;
+    display: block;
+    justify-content: center;
+    width: fit-content;
+    color: #666;
+}

@@ -1,0 +1,102 @@
+.drawer .accordion-item {
+    margin: 0 auto;
+    display: flow-root;
+    position: relative;
+    overflow: visible;
+    z-index: 1;
+}
+
+.drawer .accordion-item::after,
+.drawer .accordion-item::before {
+    content: "";
+    width: 100vw;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    margin: 0;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    background: #f8f9f9;
+    background: -moz-linear-gradient(top, #fff 0%, #f1f3f3 100%);
+    background: -webkit-linear-gradient(top, #fff 0%, #f1f3f3 100%);
+    background: linear-gradient(to bottom, #fff 0%, #f1f3f3 100%);
+    z-index: -1;
+    display: inline-block;
+    outline: 1px solid #ccc;
+}
+
+.drawer .accordion-item::before { 
+    margin-left: calc(-100vw / 2 + 20px / 2);
+    left:0;
+}
+
+.drawer::after {
+    margin-right: calc(-100vw / 2 + 20px / 2); 
+    right: 0;
+}
+
+.drawer .accordion-item-active::after {
+    background: #fff!important;
+}
+
+.drawer{
+    border-radius:3px;
+}
+.accordion-item-active .accordion-header{
+    background:#fff;
+    border-bottom: none;
+}
+.accordion-item-active .accordion-header-icon{
+    color:#333;
+}
+.accordion-item-active .accordion-header h1{
+    color:#333;
+}
+.accordion-item-active .accordion-content{
+    border-top:none;
+}
+.accordion-header{
+    background: #f8f9f9;
+    background: -moz-linear-gradient(top, #fff 0%, #f1f3f3 100%);
+    background: -webkit-linear-gradient(top, #fff 0%, #f1f3f3 100%);
+    background: linear-gradient(to bottom, #fff 0%, #f1f3f3 100%);
+    padding:20px 10px;
+    cursor:pointer;
+    min-height:59px;
+}
+.accordion-header h1{
+    float:left;
+    font-size:16px;
+    font-weight: normal;
+    margin:0;
+    line-height:1.1em;
+    color:#444;
+}
+.accordion-content{
+    border-top:1px solid #E0E0E0;
+    display:none;
+    padding:12px 10px;
+    color:#212121;
+    background:#FFF;
+    font-size:15px;
+    line-height:1.45em;
+}
+.accordion-content p{
+    margin:0;
+    margin-bottom:3px;
+}
+.wc-tabs-mobile .accordion-item .accordion-header.accordion-header-active:before {
+    content: "\f068";
+    color:#333;
+}
+.wc-tabs-mobile .accordion-item  .accordion-header:before {
+    font-family: FontAwesome;
+    content: "\f067";
+    float: right;
+    color: #444;
+    font-size: 16px;
+    margin: 0;
+    line-height: 1.1em;
+}
