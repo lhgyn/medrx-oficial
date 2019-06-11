@@ -1,7 +1,6 @@
 
-@import url('https://fonts.googleapis.com/css?family=Rubik:400,500,700,900&display=swap');
-@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 @import url('../libs/bootstrap4/css/bootstrap.min.css');
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 
 @import url('./header.css');
 @import url('./footer.css');

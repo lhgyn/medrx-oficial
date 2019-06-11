@@ -12,6 +12,8 @@
 	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 	})(window,document,'script','dataLayer','GTM-5N58KTZ');</script>
 
+	<link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700&display=swap" rel="stylesheet">
+
     <?php wp_head(); ?>
 </head>
 <body <?php body_class()?>>

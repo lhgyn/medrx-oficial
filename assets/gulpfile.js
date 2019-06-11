@@ -25,7 +25,7 @@ gulp.task('image-clean', () =>
 gulp.task('css-min', function () {
     gulp.src([
         './libs/bootstrap4/css/bootstrap.min.css',
-        './css/rubik.font.css',
+        'https://fonts.googleapis.com/css?family=Rubik:300,400,500,700&display=swap',
         './css/header.css',
         './css/footer.css',
         './css/loja.css',
