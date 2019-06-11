@@ -19,7 +19,7 @@ var concat = require('gulp-concat');
 gulp.task('image-clean', () =>
     gulp.src('../images/**/*')
         .pipe(imagemin())
-        .pipe(gulp.dest('../images/news'))
+        .pipe(gulp.dest('../images'))
 );
 
 gulp.task('css-min', function () {

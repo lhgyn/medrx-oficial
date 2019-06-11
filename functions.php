@@ -45,9 +45,10 @@ require_once('includes/wp_bootstrap_pagination.php');
 ////////////////////////////*/
 function medrx_scripts()
 {   
-    //////////////////////////
+    //////////////////////////////////
     // SCRIPTS FOR DEVELOPMENT
-    //wp_enqueue_script('jquery', 'https://code.jquery.com/jquery-3.3.1.min.js');
+    //////////////////////////////////
+    // wp_enqueue_script('jquery', 'https://code.jquery.com/jquery-3.3.1.min.js');
     // wp_enqueue_script('bootstrap4', get_template_directory_uri() . '/assets/libs/bootstrap4/js/bootstrap.min.js');
     // wp_enqueue_script('inputmask', get_template_directory_uri() . '/assets/libs/inputmask/jquery.mask.min.js');
     // wp_enqueue_script('owlcarousel', get_template_directory_uri() . '/assets/libs/owl-carousel/owl.carousel.min.js');
@@ -56,14 +57,19 @@ function medrx_scripts()
     // wp_enqueue_script('products', get_template_directory_uri() . '/assets/js/products.js');
     // wp_enqueue_script('main', get_template_directory_uri() . '/assets/js/main.js');
 
+    //////////////////////////////////
     // ALL SCRIPTS FOR PRODUCTION
+    //////////////////////////////////
     wp_enqueue_script('__all-scripts', get_template_directory_uri() . '/assets/js/__all-scripts.min.js');
 
-
-    // ALL STYLES FOR DEVELOPMENT
+    //////////////////////////////////
+    // STYLES FOR DEVELOPMENT
+    //////////////////////////////////
     //wp_enqueue_style('_styles', get_template_directory_uri() . '/assets/css/_styles.css');
 
+    //////////////////////////////////
     // ALL STYLES FOR PRODUCTION
+    //////////////////////////////////
     wp_enqueue_style('__all-styles', get_template_directory_uri() . '/assets/css/__all-styles.min.css');
     wp_enqueue_style('theme-style', get_stylesheet_uri());
 }
