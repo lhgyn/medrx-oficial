@@ -36,14 +36,12 @@
                                 <h3>Informações</h3>
                                 <?php dynamic_sidebar( "footer-4" ) ?>
                             </div>
-                            <div class="col-12 content-social">
+                            <!-- <div class="col-12 content-social">
                                 <ul class="sm-links">
                                     <li class="badge facebook"><a href="https://www.facebook.com/Ethix-Nutrac%C3%AAuticos-1872377919534396/"><i class="fab fa-facebook-f"></i></a></li>
                                     <li class="badge instagram"><a href="https://www.instagram.com/ethix.com.br/"><i class="fab fa-instagram"></i></a></li>
-                                    <!-- <li class="badge youtube"><a href="https://youtube.com/"><i class="fab fa-youtube"></i></a></li>
-                                    <li class="badge twitter"><a href="https://twitter.com/"><i class="fab fa-twitter"></i></a></li> -->
                                 </ul>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                     
