@@ -80,7 +80,7 @@
 
 	<div id="footer-copy">
 		<div class="text-center">
-            <p><small class="col">N1 SUPPLEMENTS COMÉRCIO E DISTRIBUIÇÃO LTDA: CNPJ: 32.017.806/0001-89 | &copy; <?php echo date("Y"); ?> MedRx Nutracêuticos – Todos direitos reservados</small></p>	
+            <p>&copy; <?php echo date("Y"); ?> MedRx Nutracêuticos – Todos direitos reservados</small></p>	
 		</div>
 	</div>
 </footer>
@@ -201,6 +201,8 @@ jQuery(document).ready(function($) {
             $("#payment .radio-wrap").wrapAll("<div id='radio-wrap'></div>");
             
         });
+
+        $("#billing_number").attr('type', 'number');
         
 
     });    

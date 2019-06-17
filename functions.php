@@ -65,12 +65,12 @@ function medrx_scripts()
     //////////////////////////////////
     // STYLES FOR DEVELOPMENT
     //////////////////////////////////
-    //wp_enqueue_style('_styles', get_template_directory_uri() . '/assets/css/_styles.css');
+    wp_enqueue_style('_styles', get_template_directory_uri() . '/assets/css/_styles.css');
 
     //////////////////////////////////
     // ALL STYLES FOR PRODUCTION
     //////////////////////////////////
-    wp_enqueue_style('__all-styles', get_template_directory_uri() . '/assets/css/__all-styles.min.css');
+    //wp_enqueue_style('__all-styles', get_template_directory_uri() . '/assets/css/__all-styles.min.css');
     wp_enqueue_style('theme-style', get_stylesheet_uri());
 }
 add_action('wp_enqueue_scripts', 'medrx_scripts');
@@ -158,6 +158,23 @@ function get_star_rating($val)
 {
     echo '<hr/><div class="star-rating stars-loja" ><span class="verificar-star" style="width:'.( ( $val / 5 ) * 100 ) . '%"><strong itemprop="ratingValue" class="rating">'.$val.'</strong> '.__( 'coisa/5', 'woocommerce' ).'</span></div>'.'<div class="nota-estrela"> <span>'.$val.'/5</span></div>';
 }
+
+
+
+
+
+
+// add_filter( 'woocommerce_billing_fields', 'wc_optional_billing_fields', 10, 1 );
+// function wc_optional_billing_fields( $address_fields ) {
+// $address_fields['billing_number']['required'] = false;
+// return $address_fields;
+// }
+
+// add_filter( 'woocommerce_shipping_fields', 'wc_optional_shipping_fields', 10, 1 );
+// function wc_optional_shipping_fields( $address_fields ) {
+// $address_fields['shipping_number']['required'] = false;
+// return $address_fields;
+// }
 
 
 /*///////////////////////////////////////////////

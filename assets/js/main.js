@@ -240,6 +240,7 @@ jQuery(document).ready(function($) {
             });
             cep_hasError = 0;
     
+            $("#billing_number").attr('type', 'number');
             $("#billing_number").focus();
         }
     };
